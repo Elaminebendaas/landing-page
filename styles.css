@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .header {
     background-color: #1f2937;
@@ -26,7 +27,7 @@
 .item > h1{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: 700;
 }
 .item > p{
     font-size: 18px;
@@ -47,3 +48,47 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+.container-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    gap: 60px;
+}
+.main-item{
+    width: 190px;
+
+}
+.main-item > p{
+    font-weight: bold;
+}
+.main-item > button{
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+    padding: 5px 12px;
+    border-radius: 12px;
+}
+.main-item > img{
+    border: 3px solid #3882f6;  
+}
+.testimonial{
+    margin: auto;
+    padding: 120px 400px;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
