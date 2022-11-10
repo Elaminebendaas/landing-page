@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+.header {
+    background-color: #1f2937;
+    padding: 12px 180px 125px;
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainnav > ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.item > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+.item > p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
