@@ -91,4 +91,30 @@ a{
     font-weight: 700;
     text-align: right;
 }
+.signup-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 80px 300px ;
+    padding: 30px 100px;
+    border-radius: 12px;
+}
+.signup-box > button{
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    border-style: solid;
+    color: #e5e7eb;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+    padding: 0px 42px;
+    border-radius: 12px;
+}
 
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 25px;
+    text-align: center;
+}
